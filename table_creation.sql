@@ -5,7 +5,7 @@ middlename varchar(20),
 lastname varchar(20),
 age int not null,
 salary int,
-location varchar(20)
+location varchar(20) default "hyderabad"
 );
 
 
